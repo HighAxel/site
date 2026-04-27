@@ -22,7 +22,7 @@ type ShardStats = Shard & {
   history: number[];
 };
 
-const API = "http://194.36.88.214:8001";
+const API = "";
 const REFRESH_MS = 5000;
 const MAX_HISTORY = 24;
 
@@ -104,7 +104,7 @@ export default function StatusPage() {
     if (!guildId.trim()) return;
 
     try {
-      const res = await fetch(`${API}/guild/${guildId.trim()}`);
+      const res = await fetch(`/api/guild/${guildId}`)
       const data = await res.json();
 
       if (data.error) {
