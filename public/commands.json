@@ -1,0 +1,1102 @@
+[
+  {
+    "name": "credits",
+    "category": "info",
+    "description": "info",
+    "usage": ",credits ",
+    "aliases": [],
+    "permission": "Unknown"
+  },
+  {
+    "name": "getkey",
+    "category": "owner",
+    "description": "No description",
+    "usage": ",getkey ",
+    "aliases": [],
+    "permission": "Unknown"
+  },
+  {
+    "name": "unban",
+    "category": "Moderation",
+    "description": "moderation",
+    "usage": ",unban <user> [reason=No reason]",
+    "aliases": [
+      "ub"
+    ],
+    "permission": "Unknown"
+  },
+  {
+    "name": "geterror",
+    "category": "owner",
+    "description": "No description",
+    "usage": ",geterror <key>",
+    "aliases": [
+      "trace"
+    ],
+    "permission": "Unknown"
+  },
+  {
+    "name": "kick",
+    "category": "Moderation",
+    "description": "moderation",
+    "usage": ",kick <member> [reason=No reason]",
+    "aliases": [
+      "k"
+    ],
+    "permission": "Unknown"
+  },
+  {
+    "name": "invite",
+    "category": "info",
+    "description": "info",
+    "usage": ",invite ",
+    "aliases": [
+      "support",
+      "inv"
+    ],
+    "permission": "Unknown"
+  },
+  {
+    "name": "deleteemoji",
+    "category": "Emoji",
+    "description": "emoji",
+    "usage": ",deleteemoji [emoji]",
+    "aliases": [
+      "delemoji"
+    ],
+    "permission": "Unknown"
+  },
+  {
+    "name": "mute",
+    "category": "Moderation",
+    "description": "moderation",
+    "usage": ",mute <member> [duration=10]",
+    "aliases": [
+      "timeout"
+    ],
+    "permission": "Unknown"
+  },
+  {
+    "name": "pingonjoin",
+    "category": "config",
+    "description": "No description",
+    "usage": ",pingonjoin ",
+    "aliases": [
+      "poj"
+    ],
+    "permission": "Unknown"
+  },
+  {
+    "name": "unmute",
+    "category": "Moderation",
+    "description": "moderation",
+    "usage": ",unmute <member>",
+    "aliases": [
+      "untimeout"
+    ],
+    "permission": "Unknown"
+  },
+  {
+    "name": "bumpreminder",
+    "category": "config",
+    "description": "No description",
+    "usage": ",bumpreminder ",
+    "aliases": [],
+    "permission": "Unknown"
+  },
+  {
+    "name": "stealsticker",
+    "category": "Emoji",
+    "description": "emoji",
+    "usage": ",stealsticker [attach sticker]",
+    "aliases": [
+      "stickersteal",
+      "addsticker",
+      "stickeradd"
+    ],
+    "permission": "Unknown"
+  },
+  {
+    "name": "reactionmute",
+    "category": "Moderation",
+    "description": "moderation",
+    "usage": ",reactionmute <member>",
+    "aliases": [
+      "rmute"
+    ],
+    "permission": "Unknown"
+  },
+  {
+    "name": "emojilist",
+    "category": "Emoji",
+    "description": "emoji",
+    "usage": ",emojilist ",
+    "aliases": [
+      "emojis"
+    ],
+    "permission": "Unknown"
+  },
+  {
+    "name": "reactionunmute",
+    "category": "Moderation",
+    "description": "moderation",
+    "usage": ",reactionunmute <member>",
+    "aliases": [
+      "runmute"
+    ],
+    "permission": "Unknown"
+  },
+  {
+    "name": "imagemute",
+    "category": "Moderation",
+    "description": "moderation",
+    "usage": ",imagemute <member>",
+    "aliases": [
+      "imute"
+    ],
+    "permission": "Unknown"
+  },
+  {
+    "name": "texttospeech",
+    "category": "Utility",
+    "description": "utility",
+    "usage": ",texttospeech [message]",
+    "aliases": [
+      "tts",
+      "speech"
+    ],
+    "permission": "Unknown"
+  },
+  {
+    "name": "imageunmute",
+    "category": "Moderation",
+    "description": "moderation",
+    "usage": ",imageunmute <member>",
+    "aliases": [
+      "iunmute"
+    ],
+    "permission": "Unknown"
+  },
+  {
+    "name": "role",
+    "category": "Moderation",
+    "description": "moderation",
+    "usage": ",role <member> <role>",
+    "aliases": [
+      "r"
+    ],
+    "permission": "Unknown"
+  },
+  {
+    "name": "splash",
+    "category": "Utility",
+    "description": "utility",
+    "usage": ",splash [invite code]",
+    "aliases": [],
+    "permission": "Unknown"
+  },
+  {
+    "name": "disablecommand",
+    "category": "config",
+    "description": "config",
+    "usage": ",disablecommand [command name]",
+    "aliases": [
+      "disablecmd"
+    ],
+    "permission": "Unknown"
+  },
+  {
+    "name": "invites",
+    "category": "Utility",
+    "description": "utility",
+    "usage": ",invites <user>",
+    "aliases": [],
+    "permission": "Unknown"
+  },
+  {
+    "name": "enablecommand",
+    "category": "config",
+    "description": "enable a command that was previously disabled in this server",
+    "usage": ",enablecommand [command name]",
+    "aliases": [
+      "enablecmd"
+    ],
+    "permission": "Unknown"
+  },
+  {
+    "name": "reskin",
+    "category": "reskin",
+    "description": "No description",
+    "usage": ",reskin ",
+    "aliases": [],
+    "permission": "Unknown"
+  },
+  {
+    "name": "confessions",
+    "category": "config",
+    "description": "No description",
+    "usage": ",confessions ",
+    "aliases": [],
+    "permission": "Unknown"
+  },
+  {
+    "name": "enlarge",
+    "category": "Emoji",
+    "description": "emoji",
+    "usage": ",enlarge [emoji]",
+    "aliases": [
+      "downloademoji",
+      "e",
+      "jumbo"
+    ],
+    "permission": "Unknown"
+  },
+  {
+    "name": "getbotinvite",
+    "category": "Utility",
+    "description": "utility",
+    "usage": ",getbotinvite [bot id]",
+    "aliases": [],
+    "permission": "Unknown"
+  },
+  {
+    "name": "sbanner",
+    "category": "Utility",
+    "description": "utility",
+    "usage": ",sbanner [invite code]",
+    "aliases": [],
+    "permission": "Unknown"
+  },
+  {
+    "name": "emojiinfo",
+    "category": "Emoji",
+    "description": "emoji",
+    "usage": ",emojiinfo [emoji]",
+    "aliases": [
+      "ei"
+    ],
+    "permission": "Unknown"
+  },
+  {
+    "name": "sicon",
+    "category": "Utility",
+    "description": "utility",
+    "usage": ",sicon [invite code]",
+    "aliases": [],
+    "permission": "Unknown"
+  },
+  {
+    "name": "starboard",
+    "category": "config",
+    "description": "No description",
+    "usage": ",starboard ",
+    "aliases": [],
+    "permission": "Unknown"
+  },
+  {
+    "name": "help",
+    "category": "No Category",
+    "description": "Shows this message",
+    "usage": ",help [command]",
+    "aliases": [
+      "h",
+      "cmds",
+      "commands"
+    ],
+    "permission": "Unknown"
+  },
+  {
+    "name": "github",
+    "category": "Utility",
+    "description": "utility",
+    "usage": ",github [user]",
+    "aliases": [
+      "gh"
+    ],
+    "permission": "Unknown"
+  },
+  {
+    "name": "translate",
+    "category": "Utility",
+    "description": "utility",
+    "usage": ",translate [language] [message]",
+    "aliases": [
+      "tr"
+    ],
+    "permission": "Unknown"
+  },
+  {
+    "name": "firstmessage",
+    "category": "Utility",
+    "description": "utility",
+    "usage": ",firstmessage <channel>",
+    "aliases": [
+      "firstmsg"
+    ],
+    "permission": "Unknown"
+  },
+  {
+    "name": "botinfo",
+    "category": "info",
+    "description": "info",
+    "usage": ",botinfo ",
+    "aliases": [
+      "about",
+      "info",
+      "bi"
+    ],
+    "permission": "Unknown"
+  },
+  {
+    "name": "clearnames",
+    "category": "Utility",
+    "description": "utility",
+    "usage": ",clearnames ",
+    "aliases": [
+      "clearusernames",
+      "clearusers"
+    ],
+    "permission": "Unknown"
+  },
+  {
+    "name": "birthday",
+    "category": "Utility",
+    "description": "utility",
+    "usage": ",birthday [member]",
+    "aliases": [
+      "bday"
+    ],
+    "permission": "Unknown"
+  },
+  {
+    "name": "purge",
+    "category": "Moderation",
+    "description": "moderation",
+    "usage": ",purge [@user] [amount]",
+    "aliases": [
+      "clear",
+      "c"
+    ],
+    "permission": "Unknown"
+  },
+  {
+    "name": "exportcmds",
+    "category": "No Category",
+    "description": "No description",
+    "usage": ",exportcmds ",
+    "aliases": [],
+    "permission": "Unknown"
+  },
+  {
+    "name": "gn",
+    "category": "fun",
+    "description": "No description",
+    "usage": ",gn ",
+    "aliases": [],
+    "permission": "Unknown"
+  },
+  {
+    "name": "clearsnipes",
+    "category": "Utility",
+    "description": "utility",
+    "usage": ",clearsnipes ",
+    "aliases": [
+      "cs"
+    ],
+    "permission": "Unknown"
+  },
+  {
+    "name": "pastusernames",
+    "category": "Utility",
+    "description": "utility",
+    "usage": ",pastusernames <user>",
+    "aliases": [
+      "names",
+      "usernames"
+    ],
+    "permission": "Unknown"
+  },
+  {
+    "name": "timezone",
+    "category": "Utility",
+    "description": "utility",
+    "usage": ",timezone [member]",
+    "aliases": [
+      "tz"
+    ],
+    "permission": "Unknown"
+  },
+  {
+    "name": "prefix",
+    "category": "config",
+    "description": "config",
+    "usage": ",prefix [prefix]",
+    "aliases": [],
+    "permission": "Unknown"
+  },
+  {
+    "name": "coinflip",
+    "category": "fun",
+    "description": "No description",
+    "usage": ",coinflip ",
+    "aliases": [],
+    "permission": "Unknown"
+  },
+  {
+    "name": "uwuify",
+    "category": "Utility",
+    "description": "utility",
+    "usage": ",uwuify [message]",
+    "aliases": [
+      "uwu"
+    ],
+    "permission": "Unknown"
+  },
+  {
+    "name": "autorole",
+    "category": "config",
+    "description": "No description",
+    "usage": ",autorole ",
+    "aliases": [],
+    "permission": "Unknown"
+  },
+  {
+    "name": "screenshot",
+    "category": "Utility",
+    "description": "utility",
+    "usage": ",screenshot [link]",
+    "aliases": [
+      "ss"
+    ],
+    "permission": "Unknown"
+  },
+  {
+    "name": "rockpaperscissors",
+    "category": "fun",
+    "description": "No description",
+    "usage": ",rockpaperscissors ",
+    "aliases": [
+      "rps"
+    ],
+    "permission": "Unknown"
+  },
+  {
+    "name": "selfprefix",
+    "category": "config",
+    "description": "config",
+    "usage": ",selfprefix [prefix]",
+    "aliases": [],
+    "permission": "Unknown"
+  },
+  {
+    "name": "createembed",
+    "category": "config",
+    "description": "config",
+    "usage": ",createembed [code]",
+    "aliases": [
+      "ce"
+    ],
+    "permission": "Unknown"
+  },
+  {
+    "name": "picperms",
+    "category": "Utility",
+    "description": "utility",
+    "usage": ",picperms [member] <channel>",
+    "aliases": [],
+    "permission": "Unknown"
+  },
+  {
+    "name": "dog",
+    "category": "fun",
+    "description": "No description",
+    "usage": ",dog ",
+    "aliases": [],
+    "permission": "Unknown"
+  },
+  {
+    "name": "youtube",
+    "category": "Utility",
+    "description": "utility",
+    "usage": ",youtube [query]",
+    "aliases": [
+      "yt"
+    ],
+    "permission": "Unknown"
+  },
+  {
+    "name": "tgpremium",
+    "category": "Social",
+    "description": "social",
+    "usage": ",tgpremium <username>",
+    "aliases": [],
+    "permission": "Unknown"
+  },
+  {
+    "name": "bitches",
+    "category": "fun",
+    "description": "No description",
+    "usage": ",bitches [user=<you>]",
+    "aliases": [],
+    "permission": "Unknown"
+  },
+  {
+    "name": "instagram",
+    "category": "Utility",
+    "description": "utility",
+    "usage": ",instagram [username]",
+    "aliases": [
+      "ig"
+    ],
+    "permission": "Unknown"
+  },
+  {
+    "name": "seen",
+    "category": "Utility",
+    "description": "utility",
+    "usage": ",seen [member]",
+    "aliases": [],
+    "permission": "Unknown"
+  },
+  {
+    "name": "afk",
+    "category": "Utility",
+    "description": "utility",
+    "usage": ",afk <reason>",
+    "aliases": [],
+    "permission": "Unknown"
+  },
+  {
+    "name": "reminder",
+    "category": "Utility",
+    "description": "No description",
+    "usage": ",reminder ",
+    "aliases": [],
+    "permission": "Unknown"
+  },
+  {
+    "name": "cat",
+    "category": "fun",
+    "description": "No description",
+    "usage": ",cat ",
+    "aliases": [],
+    "permission": "Unknown"
+  },
+  {
+    "name": "boosterrole",
+    "category": "Boosters",
+    "description": "No description",
+    "usage": ",boosterrole ",
+    "aliases": [
+      "br"
+    ],
+    "permission": "Unknown"
+  },
+  {
+    "name": "embed",
+    "category": "config",
+    "description": "No description",
+    "usage": ",embed ",
+    "aliases": [],
+    "permission": "Unknown"
+  },
+  {
+    "name": "dm",
+    "category": "config",
+    "description": "config",
+    "usage": ",dm ",
+    "aliases": [],
+    "permission": "Unknown"
+  },
+  {
+    "name": "editsnipe",
+    "category": "Utility",
+    "description": "utility",
+    "usage": ",editsnipe <number>",
+    "aliases": [
+      "es"
+    ],
+    "permission": "Unknown"
+  },
+  {
+    "name": "say",
+    "category": "fun",
+    "description": "No description",
+    "usage": ",say <msg>",
+    "aliases": [],
+    "permission": "Unknown"
+  },
+  {
+    "name": "reactionsnipe",
+    "category": "Utility",
+    "description": "utility",
+    "usage": ",reactionsnipe number",
+    "aliases": [
+      "rs"
+    ],
+    "permission": "Unknown"
+  },
+  {
+    "name": "snipe",
+    "category": "Utility",
+    "description": "utility",
+    "usage": ",snipe <number>",
+    "aliases": [
+      "s"
+    ],
+    "permission": "Unknown"
+  },
+  {
+    "name": "tictactoe",
+    "category": "fun",
+    "description": "No description",
+    "usage": ",tictactoe <member>",
+    "aliases": [
+      "ttt"
+    ],
+    "permission": "Unknown"
+  },
+  {
+    "name": "membercount",
+    "category": "Utility",
+    "description": "utility",
+    "usage": ",membercount ",
+    "aliases": [
+      "mc"
+    ],
+    "permission": "Unknown"
+  },
+  {
+    "name": "avatar",
+    "category": "Utility",
+    "description": "utility",
+    "usage": ",avatar <user>",
+    "aliases": [
+      "av"
+    ],
+    "permission": "Unknown"
+  },
+  {
+    "name": "fakepermissions",
+    "category": "config",
+    "description": "No description",
+    "usage": ",fakepermissions ",
+    "aliases": [
+      "fakeperms"
+    ],
+    "permission": "Unknown"
+  },
+  {
+    "name": "remind",
+    "category": "Utility",
+    "description": "utility",
+    "usage": ",remind [time] [reminder]",
+    "aliases": [
+      "remindme"
+    ],
+    "permission": "Unknown"
+  },
+  {
+    "name": "selfpurge",
+    "category": "Utility",
+    "description": "utility",
+    "usage": ",selfpurge [amount]",
+    "aliases": [],
+    "permission": "Unknown"
+  },
+  {
+    "name": "jishaku",
+    "category": "Jishaku",
+    "description": "The Jishaku debug and diagnostic commands.\n\nThis command on its own gives a status brief.\nAll other functionality is within its subcommands.",
+    "usage": ",jishaku ",
+    "aliases": [
+      "jsk"
+    ],
+    "permission": "Unknown"
+  },
+  {
+    "name": "roleinfo",
+    "category": "Utility",
+    "description": "utility",
+    "usage": ",roleinfo [role]",
+    "aliases": [
+      "ri"
+    ],
+    "permission": "Unknown"
+  },
+  {
+    "name": "joins",
+    "category": "Utility",
+    "description": "utility",
+    "usage": ",joins ",
+    "aliases": [],
+    "permission": "Unknown"
+  },
+  {
+    "name": "inrole",
+    "category": "Utility",
+    "description": "utility",
+    "usage": ",inrole [role]",
+    "aliases": [],
+    "permission": "Unknown"
+  },
+  {
+    "name": "tg",
+    "category": "Social",
+    "description": "social",
+    "usage": ",tg <username>",
+    "aliases": [],
+    "permission": "Unknown"
+  },
+  {
+    "name": "tt",
+    "category": "Utility",
+    "description": "utility",
+    "usage": ",tt [username]",
+    "aliases": [],
+    "permission": "Unknown"
+  },
+  {
+    "name": "muted",
+    "category": "Utility",
+    "description": "utility",
+    "usage": ",muted ",
+    "aliases": [],
+    "permission": "Unknown"
+  },
+  {
+    "name": "boosters",
+    "category": "Utility",
+    "description": "utility",
+    "usage": ",boosters ",
+    "aliases": [],
+    "permission": "Unknown"
+  },
+  {
+    "name": "gm",
+    "category": "fun",
+    "description": "No description",
+    "usage": ",gm ",
+    "aliases": [],
+    "permission": "Unknown"
+  },
+  {
+    "name": "ocr",
+    "category": "Utility",
+    "description": "utility",
+    "usage": ",ocr [reply/image/url]",
+    "aliases": [
+      "readtext",
+      "gettext"
+    ],
+    "permission": "Unknown"
+  },
+  {
+    "name": "bans",
+    "category": "Utility",
+    "description": "utility",
+    "usage": ",bans ",
+    "aliases": [],
+    "permission": "Unknown"
+  },
+  {
+    "name": "react",
+    "category": "config",
+    "description": "config",
+    "usage": ",react [message id / message link] [emoji]",
+    "aliases": [],
+    "permission": "Unknown"
+  },
+  {
+    "name": "counter",
+    "category": "config",
+    "description": "config",
+    "usage": ",counter ",
+    "aliases": [],
+    "permission": "Unknown"
+  },
+  {
+    "name": "invoke",
+    "category": "config",
+    "description": "config",
+    "usage": ",invoke ",
+    "aliases": [],
+    "permission": "Unknown"
+  },
+  {
+    "name": "inviteinfo",
+    "category": "Utility",
+    "description": "utility",
+    "usage": ",inviteinfo [invite code]",
+    "aliases": [
+      "ii"
+    ],
+    "permission": "Unknown"
+  },
+  {
+    "name": "tglastseen",
+    "category": "Social",
+    "description": "social",
+    "usage": ",tglastseen <username>",
+    "aliases": [],
+    "permission": "Unknown"
+  },
+  {
+    "name": "roles",
+    "category": "Utility",
+    "description": "utility",
+    "usage": ",roles ",
+    "aliases": [],
+    "permission": "Unknown"
+  },
+  {
+    "name": "bots",
+    "category": "Utility",
+    "description": "utility",
+    "usage": ",bots ",
+    "aliases": [],
+    "permission": "Unknown"
+  },
+  {
+    "name": "addemoji",
+    "category": "Emoji",
+    "description": "emoji",
+    "usage": ",addemoji [emoji] <name>",
+    "aliases": [
+      "steal"
+    ],
+    "permission": "Unknown"
+  },
+  {
+    "name": "autopfp",
+    "category": "config",
+    "description": "No description",
+    "usage": ",autopfp ",
+    "aliases": [],
+    "permission": "Unknown"
+  },
+  {
+    "name": "close",
+    "category": "owner",
+    "description": "No description",
+    "usage": ",close ",
+    "aliases": [],
+    "permission": "Unknown"
+  },
+  {
+    "name": "donor",
+    "category": "owner",
+    "description": "No description",
+    "usage": ",donor ",
+    "aliases": [],
+    "permission": "Unknown"
+  },
+  {
+    "name": "tgbulk",
+    "category": "Social",
+    "description": "social",
+    "usage": ",tgbulk <usernames>",
+    "aliases": [],
+    "permission": "Unknown"
+  },
+  {
+    "name": "sticker",
+    "category": "Emoji",
+    "description": "emoji",
+    "usage": ",sticker ",
+    "aliases": [],
+    "permission": "Unknown"
+  },
+  {
+    "name": "addmultiple",
+    "category": "Emoji",
+    "description": "emoji",
+    "usage": ",addmultiple [emojis]",
+    "aliases": [
+      "am"
+    ],
+    "permission": "Unknown"
+  },
+  {
+    "name": "tgpfp",
+    "category": "Social",
+    "description": "social",
+    "usage": ",tgpfp <username>",
+    "aliases": [],
+    "permission": "Unknown"
+  },
+  {
+    "name": "weather",
+    "category": "Utility",
+    "description": "utility",
+    "usage": ",weather [country]",
+    "aliases": [],
+    "permission": "Unknown"
+  },
+  {
+    "name": "tgid",
+    "category": "Social",
+    "description": "social",
+    "usage": ",tgid <username>",
+    "aliases": [],
+    "permission": "Unknown"
+  },
+  {
+    "name": "userinfo",
+    "category": "Utility",
+    "description": "utility",
+    "usage": ",userinfo <user>",
+    "aliases": [
+      "whois",
+      "ui",
+      "user"
+    ],
+    "permission": "Unknown"
+  },
+  {
+    "name": "tglink",
+    "category": "Social",
+    "description": "social",
+    "usage": ",tglink <username>",
+    "aliases": [],
+    "permission": "Unknown"
+  },
+  {
+    "name": "portal",
+    "category": "owner",
+    "description": "No description",
+    "usage": ",portal <id>",
+    "aliases": [],
+    "permission": "Unknown"
+  },
+  {
+    "name": "serverbanner",
+    "category": "Utility",
+    "description": "utility",
+    "usage": ",serverbanner ",
+    "aliases": [
+      "guildbanner"
+    ],
+    "permission": "Unknown"
+  },
+  {
+    "name": "servericon",
+    "category": "Utility",
+    "description": "utility",
+    "usage": ",servericon ",
+    "aliases": [
+      "guildicon",
+      "guildavatar",
+      "serveravatar"
+    ],
+    "permission": "Unknown"
+  },
+  {
+    "name": "serversplash",
+    "category": "Utility",
+    "description": "utility",
+    "usage": ",serversplash ",
+    "aliases": [
+      "guildsplash"
+    ],
+    "permission": "Unknown"
+  },
+  {
+    "name": "uptime",
+    "category": "info",
+    "description": "info",
+    "usage": ",uptime ",
+    "aliases": [],
+    "permission": "Unknown"
+  },
+  {
+    "name": "serverinfo",
+    "category": "Utility",
+    "description": "utility",
+    "usage": ",serverinfo ",
+    "aliases": [
+      "si"
+    ],
+    "permission": "Unknown"
+  },
+  {
+    "name": "ping",
+    "category": "info",
+    "description": "info",
+    "usage": ",ping ",
+    "aliases": [],
+    "permission": "Unknown"
+  },
+  {
+    "name": "servers",
+    "category": "owner",
+    "description": "No description",
+    "usage": ",servers ",
+    "aliases": [
+      "guilds"
+    ],
+    "permission": "Unknown"
+  },
+  {
+    "name": "server",
+    "category": "Utility",
+    "description": "No description",
+    "usage": ",server ",
+    "aliases": [
+      "guild"
+    ],
+    "permission": "Unknown"
+  },
+  {
+    "name": "mediaonly",
+    "category": "config",
+    "description": "No description",
+    "usage": ",mediaonly ",
+    "aliases": [],
+    "permission": "Unknown"
+  },
+  {
+    "name": "unblacklist",
+    "category": "owner",
+    "description": "No description",
+    "usage": ",unblacklist <member>",
+    "aliases": [],
+    "permission": "Unknown"
+  },
+  {
+    "name": "botclear",
+    "category": "Moderation",
+    "description": "moderation",
+    "usage": ",botclear ",
+    "aliases": [
+      "bc"
+    ],
+    "permission": "Unknown"
+  },
+  {
+    "name": "ban",
+    "category": "Moderation",
+    "description": "moderation",
+    "usage": ",ban <member> [reason=No reason]",
+    "aliases": [
+      "b"
+    ],
+    "permission": "Unknown"
+  },
+  {
+    "name": "nuke",
+    "category": "Moderation",
+    "description": "moderation",
+    "usage": ",nuke ",
+    "aliases": [],
+    "permission": "Unknown"
+  },
+  {
+    "name": "delerrors",
+    "category": "owner",
+    "description": "No description",
+    "usage": ",delerrors ",
+    "aliases": [],
+    "permission": "Unknown"
+  }
+]
