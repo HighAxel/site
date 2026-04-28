@@ -64,7 +64,7 @@ const features = () => {
 
             <div className="text-gray-400 text-[12px]">
               Message deleted • User:{" "}
-              <span className="text-gray-200">alex</span>
+              <span className="text-gray-200">axel</span>
             </div>
 
             <div className="mt-2 text-[11px] text-red-400">

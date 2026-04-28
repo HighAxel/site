@@ -26,16 +26,15 @@ export default function Footer() {
               <h3 className="text-white mb-3">Product</h3>
               <ul className="space-y-2 text-gray-400">
                 <li><Link href="/commands">Commands</Link></li>
-                <li><Link href="/embed">Embeds</Link></li>
                 <li><Link href="/status">Status</Link></li>
+                <li><Link href="/team">Team</Link></li>
               </ul>
             </div>
 
             <div>
               <h3 className="text-white mb-3">Resources</h3>
               <ul className="space-y-2 text-gray-400">
-                <li><Link href="#">Docs</Link></li>
-                <li><Link href="#">Support</Link></li>
+                <li><Link href="/support">Support</Link></li>
               </ul>
             </div>
 
