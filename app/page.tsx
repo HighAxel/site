@@ -9,7 +9,6 @@ export default function Home() {
         <div className="absolute inset-x-0 -top-32 bottom-0 -z-10 opacity-[0.12] bg-[url('/noise.png')]" />
         <div className="absolute inset-x-0 -top-32 bottom-0 -z-10 bg-[radial-gradient(circle_at_50%_20%,rgba(212,188,210,0.15),transparent_60%)]" />
 
-        {/* HERO */}
         <section className="flex flex-col items-center justify-center text-center pt-32 pb-24">
 
           <h1 className="text-4xl sm:text-6xl font-bold leading-tight">
@@ -48,24 +47,23 @@ export default function Home() {
             </a>
 
             <a
-              href="#"
+              href="#features"
               className="px-6 py-3 rounded-full border border-white/10 bg-white/5 backdrop-blur hover:bg-white/10 transition"
             >
               Explore →
             </a>
           </div>
         </section>
-
-        {/* 🔥 NEW FEATURES GRID */}
-        <section className="max-w-6xl mx-auto py-24">
+        <section
+  id="features"
+  className="max-w-6xl mx-auto py-24 scroll-mt-24"
+>
           <h2 className="text-center text-3xl font-semibold mb-16">
             Powerful features
           </h2>
 
           <FeaturesGrid />
         </section>
-
-        {/* STATS CARDS */}
         <section className="max-w-6xl mx-auto py-24">
           <div className="grid md:grid-cols-3 gap-6">
 
@@ -108,8 +106,6 @@ export default function Home() {
 
           <div className="mt-16 border-t border-white/10" />
         </section>
-
-        {/* TRUST */}
         <section className="text-center py-20 border-t border-white/10">
           <h2 className="text-2xl sm:text-3xl font-semibold">
             Trusted by thousands of guilds
