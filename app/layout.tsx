@@ -8,6 +8,7 @@ import Footer from "./components/Footer";
 
 import { QueryProvider } from "./providers/query-provider";
 
+
 const geistSans = Geist({
   variable: "--font-geist-sans",
   subsets: ["latin"],
@@ -65,23 +66,28 @@ export default function RootLayout({
       className={`${geistSans.variable} ${geistMono.variable} h-full antialiased`}
     >
       <body className="min-h-full flex flex-col text-white relative overflow-x-hidden">
-        <QueryProvider>
-          <div className="fixed inset-0 -z-10 bg-[#050505]" />
-          <div className="fixed inset-0 -z-10 bg-[radial-gradient(circle_at_50%_20%,rgba(212,188,210,0.15),transparent_60%)]" />
-          <div className="fixed inset-0 -z-10 bg-[radial-gradient(circle_at_50%_80%,rgba(138,114,136,0.12),transparent_60%)]" />
-          <div className="fixed inset-0 -z-10 bg-gradient-to-b from-transparent via-transparent to-black/80" />
-          <div className="fixed inset-0 -z-10 opacity-[0.03] bg-[url('/noise.png')]" />
 
-          <MainNav />
 
-          <main className="flex-1">
-            {children}
-          </main>
+          <QueryProvider>
 
-          <Footer />
+            <div className="fixed inset-0 -z-10 bg-[#050505]" />
+            <div className="fixed inset-0 -z-10 bg-[radial-gradient(circle_at_50%_20%,rgba(212,188,210,0.15),transparent_60%)]" />
+            <div className="fixed inset-0 -z-10 bg-[radial-gradient(circle_at_50%_80%,rgba(138,114,136,0.12),transparent_60%)]" />
+            <div className="fixed inset-0 -z-10 bg-gradient-to-b from-transparent via-transparent to-black/80" />
+            <div className="fixed inset-0 -z-10 opacity-[0.03] bg-[url('/noise.png')]" />
 
-          <BackToTop />
-        </QueryProvider>
+            <MainNav />
+
+            <main className="flex-1">
+              {children}
+            </main>
+
+            <Footer />
+
+            <BackToTop />
+
+          </QueryProvider>
+
       </body>
     </html>
   );
