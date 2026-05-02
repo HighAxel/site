@@ -12,54 +12,20 @@ import {
 
 const TEAM = [
   {
-    id: "1475924756418134269",
+    id: "1499018726257725591",
     role: "Developer",
     quote: "Love Sex & Dreams.",
     connections: [
       {
         type: "discord",
-        url: "https://discord.com/users/1475924756418134269",
+        url: "https://discord.com/users/1499018726257725591",
       },
       {
         type: "telegram",
         url: "https://t.me/bossaxel",
       },
     ],
-  },
-
-  {
-    id: "1492942644119343114",
-    role: "Developer",
-    quote:
-      "E-sexing with threat's code.",
-    connections: [
-      {
-        type: "discord",
-        url: "https://discord.com/users/1492942644119343114",
-      },
-      {
-        type: "telegram",
-        url: "https://t.me/eswagged",
-      },
-    ],
-  },
-
-  {
-    id: "1492554491864682506",
-    role: "Owner",
-    quote:
-      "theres only a couple real friends in your life",
-    connections: [
-      {
-        type: "discord",
-        url: "https://discord.com/users/1492554491864682506",
-      },
-      {
-        type: "telegram",
-        url: "https://t.me/noxyx",
-      },
-    ],
-  },
+  }
 ];
 
 function getAvatar(user: any) {
