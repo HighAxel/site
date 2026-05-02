@@ -10,11 +10,16 @@ import {
   Send,
 } from "lucide-react";
 
+export const metadata = {
+  title: "Team",
+  description: "Threat Team.",
+};
+
 const TEAM = [
   {
     id: "1499018726257725591",
     role: "Developer",
-    quote: "I love my baby jackie sm",
+    quote: "Love Sex & Dreams.",
     connections: [
       {
         type: "discord",
