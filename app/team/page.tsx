@@ -10,10 +10,7 @@ import {
   Send,
 } from "lucide-react";
 
-export const metadata = {
-  title: "Team",
-  description: "Threat Team.",
-};
+
 
 const TEAM = [
   {
