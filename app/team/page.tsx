@@ -14,7 +14,7 @@ const TEAM = [
   {
     id: "1499018726257725591",
     role: "Developer",
-    quote: "Love Sex & Dreams.",
+    quote: "I love my baby jackie sm",
     connections: [
       {
         type: "discord",
