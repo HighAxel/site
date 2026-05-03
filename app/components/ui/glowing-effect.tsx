@@ -2,7 +2,7 @@
 
 import { memo, useEffect, useRef, useMemo } from "react";
 import { cn } from "@/lib/utils";
-import { useMotionValue, useSpring, useTransform, motion } from "motion/react";
+import { useMotionValue, useSpring, useTransform, motion } from "framer-motion";
 
 interface GlowingEffectProps {
   blur?: number;
