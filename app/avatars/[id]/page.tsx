@@ -2,11 +2,22 @@ import Image from "next/image"
 import BackToTop from "@/app/components/BackToTop"
 
 async function getData(id: string) {
-  const res = await fetch(`http://YOUR_API_IP:8001/avatars?user_id=${id}`, {
-    cache: "no-store"
-  })
+  try {
+    const res = await fetch(
+      `https://api.threat.best/avatars?user_id=${id}`,
+      {
+        cache: "no-store"
+      }
+    )
 
-  return res.json()
+    if (!res.ok) {
+      return null
+    }
+
+    return res.json()
+  } catch {
+    return null
+  }
 }
 
 export default async function AvatarHistoryPage({
@@ -18,16 +29,30 @@ export default async function AvatarHistoryPage({
 
   const data = await getData(id)
 
-  if (!data.success) {
+  if (!data || !data.success) {
     return (
-      <main className="min-h-screen flex items-center justify-center text-white">
-        <div className="text-center">
-          <h1 className="text-3xl font-bold">User not found</h1>
-          <p className="text-gray-400 mt-3">
-            Could not fetch avatar history.
-          </p>
-        </div>
-      </main>
+      <>
+        <main className="relative min-h-screen text-white px-6 overflow-hidden">
+
+          <div className="absolute inset-x-0 -top-32 bottom-0 -z-10 opacity-[0.12] bg-[url('/noise.png')]" />
+          <div className="absolute inset-x-0 -top-32 bottom-0 -z-10 bg-[radial-gradient(circle_at_50%_20%,rgba(212,188,210,0.15),transparent_60%)]" />
+
+          <section className="flex flex-col items-center justify-center text-center pt-40">
+
+            <h1 className="text-5xl font-bold">
+              User not found
+            </h1>
+
+            <p className="text-gray-400 mt-5 text-lg">
+              Failed to fetch avatar history.
+            </p>
+
+          </section>
+
+        </main>
+
+        <BackToTop />
+      </>
     )
   }
 
